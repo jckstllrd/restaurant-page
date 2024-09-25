@@ -12,7 +12,11 @@ body {
 
 header {
   display: flex;
+  overflow: hidden;
   justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 nav {
@@ -31,4 +35,8 @@ button {
 
 button:hover {
   background-color: lightgray;
+}
+
+#content {
+  margin-top: 30px;
 }
